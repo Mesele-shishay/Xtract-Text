@@ -13,7 +13,7 @@ os.environ['TESSDATA_PREFIX'] = '/usr/share/tesseract-ocr/5/tessdata'
 
 class OCR:
     def __init__(self):
-        self.path = '/usr/bin/tesseract'
+        self.path = '/bin/tesseract'
 
     def extract(self, filename):
         try:
